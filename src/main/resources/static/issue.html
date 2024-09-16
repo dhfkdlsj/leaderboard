@@ -1,9 +1,7 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <!-- 문서의 문자 인코딩을 UTF-8로 설정합니다. -->
     <meta charset="UTF-8">
-    <!-- 웹 페이지의 제목을 설정합니다. 브라우저 탭에 표시됩니다. -->
     <title>발급 페이지</title>
 
     <!-- SockJS 클라이언트 라이브러리를 로드합니다. WebSocket 통신을 위한 대체 방식입니다. -->
@@ -12,10 +10,8 @@
     <script src="https://cdn.jsdelivr.net/npm/stompjs@2.3.3/lib/stomp.min.js"></script>
 </head>
 <body>
-<!-- 페이지의 주요 제목을 표시합니다. -->
 <h1 id="header">발급 페이지</h1>
 
-<!-- 버튼을 제공하여 쿠폰 발급과 리더보드 초기화를 수행합니다. -->
 <div>
     <!-- 쿠폰 발급 버튼. 클릭 시 issueCoupon() 함수 호출 -->
     <button onclick="issueCoupon()">쿠폰 발급하기</button>
@@ -23,7 +19,7 @@
     <button onclick="clearLeaderboard()">초기화</button>
 </div>
 
-<!-- 리더보드 항목을 표시하는 목록입니다. -->
+<!-- 리더보드 항목을 표시 -->
 <ul id="leaderboard"></ul>
 
 <script>
@@ -63,10 +59,10 @@
     stompClient.connect({}, function (frame) {
         console.log('Connected: ' + frame);
 
-        // 리더보드 업데이트 메시지를 구독합니다.
+        // 리더보드 업데이트 메시지를 구독, 메시지를 받으면 실행됨
         stompClient.subscribe('/topic/leaderboard', function (message) {
             console.log('Received leaderboard update:', message.body);
-            updateLeaderboard(); // 새 메시지를 수신하면 리더보드를 업데이트합니다.
+            updateLeaderboard(); //리더보드를 업데이트합니다.
         });
 
         // 페이지 로드 시 초기 리더보드 데이터를 로드합니다.
