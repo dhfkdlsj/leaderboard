@@ -12,11 +12,11 @@
 
 ## 🚀 기술 스택
 
-- **Spring Boot**: ![Spring Boot](https://img.shields.io/badge/Spring%20Boot-6DB33F?style=for-the-badge&logo=springboot&logoColor=white) Java 기반의 백엔드 프레임워크
-- **Redis**: ![Redis](https://img.shields.io/badge/Redis-DC382D?style=for-the-badge&logo=redis&logoColor=white) 리더보드 데이터를 저장하기 위한 NoSQL 데이터베이스
-- **WebSocket**: ![WebSocket](https://img.shields.io/badge/WebSocket-1D72E8?style=for-the-badge&logo=websocket&logoColor=white) 실시간 데이터 전송
-- **SockJS & STOMP**: ![SockJS](https://img.shields.io/badge/SockJS-0A0A0A?style=for-the-badge&logo=javascript&logoColor=white) ![STOMP](https://img.shields.io/badge/STOMP-8C3B2C?style=for-the-badge&logo=javascript&logoColor=white) WebSocket을 위한 클라이언트 라이브러리
-- **HTML/CSS/JavaScript**: ![HTML5](https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white) ![CSS3](https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white) ![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black) 프론트엔드 구현
+- **Spring Boot**: ![Spring Boot](https://img.shields.io/badge/Spring%20Boot-6DB33F?style=for-the-badge&logo=springboot&logoColor=white)
+- **Redis**: ![Redis](https://img.shields.io/badge/Redis-DC382D?style=for-the-badge&logo=redis&logoColor=white)
+- **WebSocket**: ![WebSocket](https://img.shields.io/badge/WebSocket-1D72E8?style=for-the-badge&logo=websocket&logoColor=white)
+- **SockJS & STOMP**: ![SockJS](https://img.shields.io/badge/SockJS-0A0A0A?style=for-the-badge&logo=javascript&logoColor=white) ![STOMP](https://img.shields.io/badge/STOMP-8C3B2C?style=for-the-badge&logo=javascript&logoColor=white)
+- **HTML/CSS/JavaScript**: ![HTML5](https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white) ![CSS3](https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white) ![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black)
 
 ## 개발자
 
